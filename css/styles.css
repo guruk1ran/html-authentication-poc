@@ -1,0 +1,140 @@
+/*  RESET */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a 0%, #020617 100%);
+}
+
+/* LAYOUT */
+.auth-shell {
+  min-height: 100vh;
+}
+
+/* CARD */
+.auth-card {
+  border-radius: 24px;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+  color: #e2e8f0;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* BRAND */
+.brand-mark {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  font-size: 1.6rem;
+  color: #3b82f6;
+  background: rgba(59, 130, 246, 0.1);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+}
+
+/* TEXT */
+.text-secondary {
+  color: #94a3b8 !important;
+}
+
+/* INPUTS */
+.form-control {
+  height: 52px;
+  border-radius: 14px;
+  border: 1px solid #1e293b;
+  background: #020617;
+  color: #e2e8f0;
+}
+
+.form-control::placeholder {
+  color: #64748b;
+}
+
+.form-control:focus {
+  background: #020617;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+  color: #fff;
+}
+
+/* CHECKBOX */
+.form-check-input {
+  background-color: #020617;
+  border: 1px solid #1e293b;
+}
+
+.form-check-input:checked {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+}
+
+/* BUTTON */
+.btn-primary {
+  height: 52px;
+  border: none;
+  border-radius: 14px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #1d4ed8, #2563eb);
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+}
+
+/* LINKS */
+.auth-link {
+  color: #3b82f6;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
+
+/* DIVIDER */
+.divider {
+  text-align: center;
+  position: relative;
+}
+
+.divider span {
+  padding: 0 10px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+/* RESPONSIVE */
+@media (max-width: 576px) {
+  .auth-card {
+    padding: 10px;
+  }
+}
+.toggle-eye {
+  position: absolute;
+  right: 15px;
+  top: 45px;
+  cursor: pointer;
+  color: #94a3b8;
+}
+/* Dashboard cards */
+.card {
+  border-radius: 16px;
+  background: #020617;
+  color: #e2e8f0;
+  border: 1px solid #1e293b;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}

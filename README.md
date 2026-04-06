@@ -1,13 +1,39 @@
-# HTML Authentication System POC
+# Authentication UI Project
 
-This is a simple HTML-based authentication system using anchor tag redirections only.
+## Overview
 
-## Files
-- login.html
-- register.html
-- forgot-password.html
-- reset-password.html
-- dashboard.html
+This project is a responsive authentication system UI built using HTML, Bootstrap 5, and custom CSS.
+It includes login, registration, password recovery, and a dashboard page.
 
-## How to test
-Open `login.html` in a browser and use the links to navigate between pages.
+## Features
+
+* Login page with modern UI
+* Registration page with multiple input fields
+* Forgot password page
+* Reset password page with password visibility toggle
+* Dashboard with navbar and cards
+* Fully responsive design (mobile, tablet, desktop)
+
+## Technologies Used
+
+* HTML5
+* Bootstrap 5
+* CSS3 (custom styling)
+* Google Fonts (Poppins)
+* Bootstrap Icons
+
+## UI Highlights
+
+* Dark theme (black + blue)
+* Glassmorphism card design
+* Smooth hover effects
+* Clean and modern layout
+
+## How to Run
+
+1. Download or clone the repository
+2. Open `index.html` in any browser
+
+## Author
+
+Gurukiran P
